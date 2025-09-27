@@ -4,88 +4,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio – Caleb Djarabé</title>
-
-  <!-- Police moderne -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-
   <style>
-    /* Corps du site avec background flou et overlay */
-    body {
-      font-family: 'Montserrat', sans-serif;
-      margin: 0;
-      padding: 0;
-      background: url('design.jpg') no-repeat center center fixed;
-      background-size: cover;
-      color: #333;
-      position: relative;
-    }
-
-    body::before {
-      content: "";
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      backdrop-filter: blur(8px);
-      background: rgba(255, 255, 255, 0.3);
-      z-index: -1;
-    }
-
-    header {
-      background: rgba(30, 58, 138, 0.8);
-      color: white;
-      padding: 60px 20px;
-      text-align: center;
-    }
+    body {font-family: Arial, sans-serif; margin:0; padding:0; background:#f9f9f9; color:#333;}
+    header {background:#1e3a8a; color:white; padding:60px 20px; text-align:center;}
     header h1 {margin:0; font-size:2.5em;}
     header p {margin:10px 0 0; font-size:1.2em;}
-
-    nav {
-      background:#0f172a;
-      padding:10px;
-      text-align:center;
-      position: sticky;
-      top: 0;
-      z-index: 10;
-    }
+    nav {background:#0f172a; padding:10px; text-align:center;}
     nav a {color:white; margin:0 15px; text-decoration:none; font-weight:bold;}
-
     section {padding:60px 20px; max-width:1000px; margin:auto;}
     h2 {color:#1e3a8a; margin-bottom:20px;}
-
-    .skills, .projects, .experience, .education {
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:20px;
-    }
-    .card {
-      background:white;
-      padding:20px;
-      border-radius:10px;
-      box-shadow:0 2px 6px rgba(0,0,0,0.1);
-    }
-
+    .skills, .projects, .experience, .education {display:grid; grid-template-columns:1fr 1fr; gap:20px;}
+    .card {background:white; padding:20px; border-radius:10px; box-shadow:0 2px 6px rgba(0,0,0,0.1);}
     footer {background:#0f172a; color:white; text-align:center; padding:20px; margin-top:40px;}
     .contact-info p {margin:5px 0;}
-
     @media(max-width:768px){
       .skills, .projects, .experience, .education {grid-template-columns:1fr;}
-    }
-
-    /* Bouton CV */
-    .btn-cv {
-      padding:10px 20px; 
-      background:#1e3a8a; 
-      color:white; 
-      border:none; 
-      border-radius:5px; 
-      cursor:pointer;
-      margin-top:10px;
-      display:inline-block;
-    }
-    .btn-cv:hover {
-      background:#16316e;
     }
   </style>
 </head>
@@ -214,7 +147,6 @@
     <p>📧 Email : cdjarabe07@gmail.com</p>
     <p>📱 Téléphone : (+221) 77 437 55 22</p>
     <p>🔗 LinkedIn : <a href="https://www.linkedin.com/in/caleb-djarabé-230477234" target="_blank">Mon profil LinkedIn</a></p>
-    <p><a href="Caleb_Djarabe_CV.pdf" class="btn-cv" download>Télécharger mon CV</a></p>
     <p>Références académiques :</p>
     <ul>
       <li>Mantobaye MOUNDIGBAYE, Ph.D — mantobaye@yahoo.fr</li>
