@@ -196,7 +196,12 @@
   <div class="contact-info">
     <p>📧 Email : cdjarabe07@gmail.com</p>
     <p>📱 Téléphone : (+221) 77 437 55 22</p>
-    <p>🔗 LinkedIn : <a href="http://www.linkedin.com/in/caleb-djarabé-225243260" target="_blank">Mon Profil</a></p>
+    <p>🔗 LinkedIn : <a href="http://www.linkedin.com/in/caleb-djarabé-225243260" target="_blank">Mon Profil</a></p><br><a href="Caleb_Djarabe_CV" download>
+  <button style="padding:10px 20px; background:#1e3a8a; color:white; border:none; border-radius:5px; cursor:pointer;">
+    Télécharger mon CV
+  </button>
+</a>
+
     <p>Références académiques :</p>
     <ul>
       <li>Mantobaye MOUNDIGBAYE, Ph.D — mantobaye@yahoo.fr</li>
